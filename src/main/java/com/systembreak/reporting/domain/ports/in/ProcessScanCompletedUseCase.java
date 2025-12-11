@@ -1,4 +1,8 @@
 package com.systembreak.reporting.domain.ports.in;
 
-public class ProcessScanCompletedUseCase {
+import com.systembreak.reporting.domain.model.Scan;
+
+public interface ProcessScanCompletedUseCase {
+
+    Scan processScanCompleted(Scan scan);
 }
