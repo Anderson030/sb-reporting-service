@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://aws-0-us-west-2.pooler.supabase.com:6543/postgres?sslmode=require
+    url: jdbc:postgresql://aws-0-us-west-2.pooler.supabase.com:6543/postgres?sslmode=require&preparedStatementCacheQueries=0
     username: postgres.nnturimujaxfcclbdfdp
-    password: Alemania1021++
+    password: ${DB_PASSWORD}
 
   jpa:
     hibernate:

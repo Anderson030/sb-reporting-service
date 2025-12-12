@@ -43,6 +43,6 @@ public class ScanEntity {
     private Integer vulnerablePackages;
 
     @Lob
-    @Column(name = "raw_report")
+    @Column(name = "raw_report", columnDefinition = "TEXT")
     private String rawReport;
 }
